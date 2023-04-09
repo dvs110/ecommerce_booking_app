@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.featured {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+
+.featuredimg {
+    width: 100%;
+    object-fit: cover;
+}
+
+.featuredItem {
+    position: relative;
+    color: white;
+    box-sizing: 10px;
+    overflow: hidden;
+    height: 250px;
+
+}
+
+.featuredTitles {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
